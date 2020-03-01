@@ -1,0 +1,430 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title>Permatex Documentation</title>
+  <meta name="description" content="Permatex landing page documentation by Web factory Ltd. Sold exclusively on ThemeForest." />
+  <meta name="lang" content="en" />
+  <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print" />
+  <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+  <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
+  <link href="assets/js/styles/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="assets/js/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h3 class="center alt">&ldquo;Permatex&rdquo; Documentation by &ldquo;Web factory Ltd&rdquo; v1.25</h3>
+    <hr>
+    <h1 class="center">&ldquo;Permatex&rdquo; Responsive Landing Page</h1>
+    <div class="borderTop">
+      <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top"><b>
+          Created: 2013/06/09, revision 3<br />
+          By: Web factory Ltd<br>
+          Support: <a href="http://themeforest.net/user/WebFactory#from">via ThemeForest</a></b>
+        </p>
+      </div><!-- end div .span-6 -->
+      <div class="span-12 last">
+        <p class="prepend-top append-0">Thank you very much for purchasing our landing page template. If you have any questions that are beyond the scope of this help file, please feel free to email us via our user page <a href="http://themeforest.net/user/webfactory#from">contact form</a>. Have a good one!</p>
+      </div>
+    </div><!-- end div .borderTop -->
+  </div><!-- end div .container -->
+  <div class="container">
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol class="alpha">
+      <li><a href="#">HTML Structure</a></li>
+      <li><a href="#">HTML files</a></li>
+      <li><a href="#">CSS Files, fonts and colors</a></li>
+      <li><a href="#">Main, top menu</a></li>
+      <li><a href="#">Google map</a></li>
+      <li><a href="#">Favicon</a></li>
+      <li><a href="#">Font icons</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">PHP files</a></li>
+      <li><a href="#">PSD Files</a></li>
+      <li><a href="#">Sources and Credits</a></li>
+      <li><a href="http://permatex.webfactoryltd.com/">Online Demo</a></li>
+    </ol>
+  </div><!-- end div .container -->
+  <div class="container">
+<h3 class="numerate"><strong>HTML Structure</strong> - <a href="#toc">top</a></h3>
+    <p>Template's layout is <strong>responsive</strong>, maximum width is 1170px with <strong>1 main center column</strong> that can be divided into a 1/12 grid. This landing page uses the <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, <strong>HTML5</strong> and <strong>CSS3</strong>.</p>
+    <h4>HTML layout structure</h4>
+    
+      <div class="struct">
+        <strong>header #top</strong><br />
+        Header with logo and menu.
+        <div class="struct">
+          <strong>h1 #logo</strong><br />
+          Logo - icon and text.
+        </div>
+        <div class="struct">
+          <strong>div #navigation</strong><br />
+          Normal and mobile menu.
+        </div>
+      </div>
+      
+      <div class="struct">
+        <strong>div #teaser</strong><br />
+        Section with slider or contact form.
+      </div>
+      
+      <div class="struct">
+        <strong>section .section-black</strong><br />
+        Section with black background. You can have as many sections as you need.
+      </div>
+      
+      <div class="struct">
+        <strong>section .section-grey</strong><br />
+        Section with grey background. You can have as many sections as you need.
+      </div>
+      
+      <div class="struct">
+        <strong>section .section-colored</strong><br />
+        Section with background in color the same as the main site's color. You can have as many sections as you need.
+      </div>
+      
+      <div class="struct">
+        <strong>footer</strong><br />
+        Minimalistic footer with logo and go to top button.
+      </div>
+    
+    <br />
+    <h4>HTML structure</h4>
+    <p>Permatex's HTML code is properly commented. We believe this will significantly increase your productivity while you make changes to the template. We've marked the beginning of all important elements so that you can easily modify or remove them without compromising the HTML's integrity and validity.<br>
+For production environments we recommend removing the HTML comments. If your HTML editor of choice can't remove them automatically you can easily clean your code using one of many free online tools such as <a href="http://infohound.net/tidy/">HTML Tidy Online</a>.<br><br></p>
+  </div><!-- end div .container -->
+  
+  
+    <div class="container">
+    <h3 class="numerate"><strong>HTML files</strong> - <a href="#toc">top</a></h3>
+    
+    <h4>Front page with contact form (index.html)</h4>
+    <p>This front page template features a contact/lead generator form in the right part of the header. As with any template the easiest was to modify it is to edit the existing code. You can add/edit/remove any contact form fields and they will automatically be placed in the send email.  Apart from the contact form template consist of a number of section that you can freely add/edit/remove.</p>
+    
+    <h4>Front page with slider (index-device.html)</h4>
+    <p>This front page template features a 50% width slider in the right part of the header. As with any template the easiest was to modify it is to edit the existing code. Apart from the slider template consist of a number of section that you can freely add/edit/remove.</p>
+    
+      <script type="syntaxhighlighter" class="brush: html">
+    <![CDATA[  
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="images/slides/ipadshots.jpg" alt="Permatex">
+    </li>
+    <li>
+      <img src="images/slides/ipadshots-2.jpg" alt="Permatex">
+    </li>
+    <li>
+      <img src="images/slides/ipadshots-3.jpg" alt="Permatex">
+    </li>
+  </ul>
+</div> 
+    ]]>
+  </script>
+      
+    <h4>Inner, static page (page.html)</h4>
+    <p>Simple inner page with typography and all elements including a right sidebar that will help you expand the page into a full site.</p>
+    
+    <h4>Inner, static page (page-left.html)</h4>
+    <p>Simple inner page with typography and all elements including a left sidebar that will help you expand the page into a full site.</p>
+    
+    <h4>Inner, static page (page-full.html)</h4>
+    <p>Simple inner page with typography and all elements that will help you expand the page into a full site.</p>
+    
+  </div><!-- end div .container -->
+  
+  
+  <div class="container">
+  <h3 class="numerate"><strong>CSS files, fonts and colors</strong> - <a href="#toc">top</a></h3>
+    <h4>Color themes</h4>
+  <p>Themes affects the overall look of the whole template. You can use only one theme at a time. Pomegranate is the default one and it's defined around line #21 in all HTML files. To change the theme simply replace "pomegranate.css" with any other file from the list. All themes are located in the "/css/color-themes/" folder.<br>
+  If you want to use the color-picker to create a new unique theme simply open any theme file, replace the two color codes with new ones and use that file as the templates theme.</p>
+  
+    <ul>
+<li>amethist.css</li>
+<li>belize.css</li>
+<li>blue.css</li>
+<li>emerald.css</li>
+<li>greensea.css</li>
+<li>nephritis.css</li>
+<li>orange.css</li>
+<li>pomegranate.css (default)</li>
+<li>pumpkin.css</li>
+<li>silver.css</li>
+<li>sunflower.css</li>
+    </ul>
+      
+    <h4>Fonts</h4>
+  <p>Fonts affect the complete template's typography. You can use only one font at a time. Passion is used by default and it's defined around line #23 in all HTML files. To change the font simply replace "passion.css" with any other file from the list. All fonts are located in the "/css/fonts/" folder.</p>
+  
+    <ul>
+<li>allerta.css</li>
+<li>arial.css</li>
+<li>cabin.css</li>
+<li>capriola.css</li>
+<li>chivo.css</li>
+<li>doppioone.css</li>
+<li>hammersmithone.css</li>
+<li>montserrat.css</li>
+<li>opensans.css</li>
+<li>passion.css (default)</li>
+<li>ubuntu.css</li>
+    </ul>
+
+    
+    <h4>Main CSS file - style.css</h4>
+    <p>The main CSS file is separated into following sections for easier editing:</p>  
+  <script type="syntaxhighlighter" class="brush: css">
+    <![CDATA[  
+	1. Basics
+	2. Spacings
+	3. Header
+	4. Navigation
+	5. Teaser
+	6. FAQ
+	7. Newsletter
+	8. Device layout
+	9. Sidebar
+	10. Twitter feed
+    ]]>
+  </script>
+  
+  <h4>Responsive CSS file - style-responsive.css</h4>
+    <p>Permatex is optimised for 6 different screen sizes. The first, biggest, and default is defined in style.css while other are in the responsive CSS file. All are properly documented and described in the file. If you want to remove the responsive behaviour of the template remove this file.</p>  
+  <script type="syntaxhighlighter" class="brush: css">
+    <![CDATA[  
+/* iPhone (portrait) */
+/* iPhone (landscape) */
+/* iPad (portrait) */
+/* iPad (landscape) */
+/* small desktop (1025 to 1200) */
+    ]]>
+  </script>
+    
+  </div><!-- end div .container -->
+  
+    <div class="container">
+    <h3 class="numerate"><strong>Main, top menu</strong> - <a href="#toc">top</a></h3>
+    <p>Main menu is defined around line #47. Just add new LI elements with A elements in them or edit one of existing ones to configure the menu.<br>
+    Mobile menu (a SELECT element) is auto-generated based on the "regular" menu. If you want to disable the auto-generate feature just remove the "data-autogenerate" property and enter the OPTION elements in it yourself having their value set to the link URL.<br>
+    Menu on the front page is used to scroll to sections on that page but there's no reason you can't mix "regular" and anchor links. Just remember to put the "smoothscroll" class on links you want to have the "smooth" and slow scroll effect on. Links to other pages don't need that class.</p>
+    
+      <script type="syntaxhighlighter" class="brush: html">
+    <![CDATA[  
+<ul class="menu hidden-phone">
+  <li><a class="smoothscroll" href="#features">features</a></li>
+  <li><a class="smoothscroll" href="#screenshots">screenshots</a></li>
+  <li><a class="smoothscroll" href="#findanswers">find answers</a></li>
+  <li><a class="smoothscroll" href="#discovermore">discover more</a></li>
+  <li><a href="page.html">blog</a></li>
+</ul>
+    ]]>
+  </script>
+    
+  </div><!-- end div .container -->
+    
+    <div class="container">
+    <h3 class="numerate"><strong>Google map</strong> - <a href="#toc">top</a></h3>
+    <p>Modifying the google map's address, zoom level and bubble is extremely simple. Just locate the following line in the footer:</p>
+    
+      <script type="syntaxhighlighter" class="brush: html">
+    <![CDATA[  
+<iframe data-address="Chicago, IL" data-zoom="14" data-bubble="true" height="550" class="gmap"></iframe>
+    ]]>
+  </script>
+    
+  <p>Simply modify the 3 variables (address, zoom, bubble) with the new values you want and that's it. You're done!</p>
+    
+  </div><!-- end div .container -->
+  
+  <div class="container">
+    <h3 class="numerate"><strong>Favicon</strong> - <a href="#toc">top</a></h3>
+    <p>Favicon is located in the "/images/" folder - "favicon.ico". You don't have to make any changes on the HTML; just replace the icon file with yours. Please be sure to force refresh your browser's cache in order to see the new favicon.</p>
+    
+  </div><!-- end div .container -->
+  
+  <div class="container">
+    <h3 class="numerate"><strong>Font icons</strong> - <a href="#toc">top</a></h3>
+    <p>Font icons are used throughout the site instead of traditional image icons. It makes the site much faster and offers you a huge free library of images. Wherever you see an HTML element that has a class simmilar to "icon-...", for instance "icon-cogs" you can replace that class with someother icons name. Complete list of icon names (+300) is available on <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">Font Awesome</a> site.</p>
+    
+
+  </div><!-- end div .container -->
+  
+    <div class="container">
+    <h3 class="numerate"><strong>JavaScript</strong> - <a href="#toc">top</a></h3>
+    <p>All JS code is jQuery based. The only file you should be editing is "/js/common.js".</p>
+     
+               <p id="js-contact"><br><strong>Configuring the contact form script</strong><br>
+     If you're having problems with the contact form please read the 5 seconds PHP setup first in this doc. There's no need to change anything in the JS/HTML unless you want to add/remove form elements.<br>
+    Validation and AJAX form handling is defined and configured in "common.js". We've used one of the best validation scripts available - <a href="http://docs.jquery.com/Plugins/Validation">jQuery validation plugin</a> which can be easily configured to validate any form. Lines #167-170 in "common.js" define the rules for input fields. Most of them are only "required" while the email field also needs to be a valid email address. Line #172 (messages) defines the error messages user gets when the form is not properly filled.<br>
+    Once the form is submitted via AJAX response alerts are configured in the "contactFormResponse()" function. You'll probably want to change the message for successful sending which is defined at line #194.</p>    
+        
+        <p id="js-newsletter-sw"><br><strong>Switching between MailChimp and "plain" newsletter subscription form</strong><br>
+    Find the form with id "newsletterform" around line #336. Set its "data-mailchimp" attribute to "true" if you want to use MailChimp or to "false" for file-based newsletter subscription.</p>
+    
+    <p id="js-newsletter"><br><strong>Configuring the newsletter subscription form</strong><br>
+If you're having problems with the newsletter subscription form (MailChimp or plain) please read the PHP setup first in this doc. There's no need to change anything in JS unless you want to change the response script gives to the user.
+Open "common.js" file which you'll find in the JS directory. The code you need starts on line #203 for plain newsletter and on #228 for MailChimp. You can change the single-quoted text in each line that starts with "alert". For instance if you change the text on line #221 ("Thank you for subscribing to our newsletter! We will not abuse your address.") you'll change the "thank you" text users see after a successful subscription.</p>
+        
+        <p><br><strong>Configuring the Twitter script</strong><br>
+        Please note that besides setting the feed details in JS you must also configure it in PHP. See PHP configuration in section below.<br>
+    Open "common.js" file which you'll find in the JS directory. On line #56 there's a piece of code that contains "username: 'envato',". Simply replace "envato" with the Twitter username whose tweets you want to show and you're done! Don't forget the single quotes around the username.<br>
+    For further details on how to configure the Twitter script please see <a href="http://tweet.seaofclouds.com/">tweet.seaofclouds.com</a>.
+    </p>
+    
+    <script type="syntaxhighlighter" class="brush: js">
+      <![CDATA[  
+  // Twitter script config
+  $('.tweet').tweet({ username: 'envato',
+                        retweets: true,
+                        join_text: 'auto',
+                        avatar_size: 0,
+                        count: 1,
+                        template: '{avatar} {time} {join} {text}',
+                        auto_join_text_default: ' we said, ', 
+                        auto_join_text_ed: ' we ',
+                        auto_join_text_ing: ' we were ',
+                        auto_join_text_reply: ' we replied to ',
+                        auto_join_text_url: ' we were checking out ',
+                        loading_text: 'loading tweets...'
+                     });
+    ]]>
+    </script>
+        
+      <p><br><strong>Other JS</strong><br>
+      All JS is properly commented so changing any parameters is easy. Just edit the predefined values. Ie to make the slider rotate faster lower the numbers defined on line #52 which inits the slider.</p>
+        
+    </div><!-- end div .container -->
+    
+    
+  <div class="container">
+    <h3  class="numerate"><strong>PHP Files</strong> - <a href="#toc">top</a></h3>
+   
+   <h4 id="twitter-feed">Twitter Feed</h4>
+    <p>Due to new Twitter API rules you have to create an application in order to show custom Twitter feeds. The process is very simple and free.
+Go to <a href="https://dev.twitter.com/" target="_blank">dev.twitter.com</a> and login with your Twitter account (any account will do). Click "My applications" under your account's avatar and then click "Create a new application". Application details are really not important, just fill them in. After the app is created click "Create my access token" (blue button on the page bottom). Then open <i>_twitter_feed.php</i> found in the site's root folder and copy/paste 4 strings in appropriate variables. Please mind the single quotes; they have to be around the string.</p>
+   
+   <h4 id="php-contact">Contact form</h4>
+    <p>Permatex includes a versatile AJAX driven PHP script that powers the contact form.</p>
+    <p id="php-5sec"><strong>5 seconds setup</strong><br />
+    Locate the file "_contact-us.php" which you'll find in the root directory of your chosen color theme. On line 9 there's a variable called $myEmail fill it with your email address, ie "$myEmail = 'john@gmail.com';". You're done!<br />Test the script by entering some data into the contact form and you should receive an email momentarily.</p>
+    <p><strong>Autoresponder setup</strong><br />
+    By default autoresponder is disabled. Enable it by setting the $autorespond variable on line #15 to "true". Whenever a client submits the form he/she will get a thank you email. Subject is defined on line #18 in variable $autorespondSubject while the email body can be set on line #21 in variable $autorespondMsg.</p>
+    
+    <p><strong>5 minutes setup</strong><br />
+    Besides the email address you can also configure the email's subject. You'll find the variable "$emailSubject" on line 11 of "_contact-us.php" script.<br />
+    If you add or remove some form fields there is no need to change anything in the script. It will email you all the fields regardless of their number.<br />
+    All other parameters of this script are configured in JavaScript. You can read more about it in the <a href="#js-contact">JavaScript</a> section of this manual.</p>
+
+
+<h4>Newsletter script</h4>
+<p>Permatex comes with MailChimp driven newsletter signup and a simple AJAX driven PHP script that enables you to collect email addresses from your visitors who wish to subscribe to your newsletter.</p>
+
+<p><b>Script requirements</b><br>
+PHP 5.2 or an older version of PHP with JSON extension. Privileges to modify write-access (chmod) on one txt file - plain script only. Ability to send emails via PHP's "mail()" function - plain script only.<br />
+These requirements are met by default in almost all hosting environments that support PHP.</p>
+
+<p><b>Setting up the MailChimp newsletter script</b><br>
+Open "_newsletter-subscribe-mailchimp.php". Lines #9 and #11 contain the only things you have to change. MailChimp API key can be obtained in your MC account under "Account - API keys". Carefully copy/paste the API key into single quotes on line 9. Line #11 contains the name of MC list you want the people to subscribe to. If needed create a new list in your MC acc.
+</p>
+
+<p><b>Setting up the plain newsletter script</b><br>
+5 seconds setup<br>
+Locate the file "subscribed-emails.txt" which you'll find in the root www directory of template. Chmod it to 777 so that PHP can write the emails in it. You're done!<br>
+Test the script by entering an email in "subscribe" box on your site, hit enter and it should say "Thank you for subscribing".<br><br>
+
+<b>5 minutes setup</b><br>
+All PHP code is located in a single file "_newsletter-subscribe.php". There are 2 variables that you can configure. The first one, "$emailsFile" (line 10) defines the path to TXT file in which PHP stores the emails and checks for duplicates. PHP has to have read and write access to this file so be sure to chmod it to 777 or a similar value that will give PHP the noted access rights. Second variable "$myEmail" (line 15) is an optional parameter which enables you to receive an email each time someone subscribes to your newsletter. Set this variable to your email address, ie: "myemail@gmail.com". If you don't want to use this feature just leave it blank.<br>
+All other parameters of this script are configured in JavaScript. You can read more about it in the JavaScript section of this manual. </p>
+
+   
+   
+  </div><!-- end div .container -->
+  
+  <div class="container">
+    <h3 class="numerate"><strong>PSD Files</strong> - <a href="#toc">top</a></h3>
+    <p>Permatex comes with partial PSD support.<br>
+    You'll find graphical elements for the template in the following files:</p>
+    <ul>
+      <li><b>permatex.psd</b> - complete front page</li>
+    </ul>
+  </div><!-- end div .container -->
+    
+  <div class="container">
+    <h3 class="numerate"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+    <p>Permatex uses the following icons, JavaScript libraries and other assets;
+    <ul>
+    <li><strong>Twitter Bootstrap</strong><br>
+    http://twitter.github.com/bootstrap/<br>
+    Apache v2.0</li>
+    <li><strong>jQuery and jQuery UI</strong><br>http://www.jquery.com<br>Licensed under MIT and GNU GPL version 2</li>
+    <li><strong>jQuery Form Plugin</strong><br>(c) malsup.com<br>Dual licensed under the MIT and GPL licenses</li> 
+    <li><strong>jQuery validation plug-in</strong><br>
+    Copyright (c) Jörn Zaefferer<br>
+    http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+   Dual licensed under the MIT and GPL licenses</li>
+<li><strong>Google Web Fonts</strong><br>
+http://www.google.com/webfonts<br>
+(c) Various authors<br>
+Open Source
+</li>
+
+<li><strong>Flexslider</strong><br>
+http://www.woothemes.com/flexslider/<br>
+(c) Woothemes<br>
+MIT license
+</li>
+
+<li><b>iPad mini</b><br>
+Jazz de Bruin<br>
+http://dribbble.com/shots/802725-Free-iPad-Mini-PSD<br>
+CC
+</li>
+
+<li><b>iPhone images</b><br>
+Pixeden<br>
+http://www.pixeden.com/psd-mock-up-templates/iphone-5-psd-vector-mockup<br>
+free
+</li>
+
+<li><b>various images</b><br>
+various authors<br>
+http://www.sxc.hu/
+free
+</li>
+
+
+    </ul>
+  </div><!-- end div .container -->
+    <div class="container">
+    <p>Once again, <strong>thank you</strong> so much for purchasing this landing page template. As stated at the beginning, we'd be glad to help you if you have any questions relating to this template. We'll do our best to assist. If you have a more general question relating to themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p><br>
+    <div id="footer_logos"><a href="http://www.webfactoryltd.com/"><img class="footer-logo" src="assets/images/webfactory_logo.png" alt="Web Factory Ltd." /></a><a href="http://themeforest.net/"><img class="footer-logo" src="assets/images/themeforest_logo.png" alt="Themeforest" /></a></div>
+    <p class="footer-totop"><a href="#toc">Go To Table of Contents</a></p>
+   </div><!-- end div .container -->   
+  <script type="text/javascript" src="assets/js/jquery-1.4.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shCore.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shAutoloader.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shBrushXml.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shBrushJScript.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shBrushCss.js"></script>
+  <script type="text/javascript" src="assets/js/scripts/shBrushPlain.js"></script>
+  <script type="text/javascript">
+       SyntaxHighlighter.all();
+       
+       $(document).ready(function(){
+         $('h3.numerate').each(function(i, element){
+           $('strong', element).prepend(String.fromCharCode(65 + i) + ') ');
+           $(element).attr('id', 'section-' + (i+1));
+         });
+         
+         $('ol.alpha li').each(function(i, element){
+           if ($('a', element).attr('href') == '#' || $('a', element).attr('href') == '') {
+            $('a', element).attr('href', '#section-' + (i+1));  
+           }
+         });
+       });
+  </script>
+</body>
+</html>

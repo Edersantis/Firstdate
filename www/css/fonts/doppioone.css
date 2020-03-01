@@ -1,0 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Doppio+One);
+#teaser h2,#teaser h3,#calltoaction-form .btn,.box h3,h3.section-title,a.buy-btn,.section-grey h3.section-title-small,a.newsletter-btn {
+	font-family:  'Doppio One', Arial, 'Liberation Sans', FreeSans, sans-serif!important;
+	letter-spacing: -1px
+}

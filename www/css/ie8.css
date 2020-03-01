@@ -1,0 +1,38 @@
+#spade {
+	margin-left: 440px
+}
+
+.cuttoff-slider {
+	margin-left: 0
+}
+
+#gallery-slider.flexslider {
+	width: 920px
+}
+
+#gallery-slider.flexslider img {
+	width: 920px;
+	height: auto
+}
+
+.flexslider-carousel img {
+  border: 2px solid #fff;
+}
+
+#newsletterform input {
+	width: 290px!important;
+	line-height:40px;
+}
+
+#newsletterform .btn  {
+	line-height:inherit!important;
+}
+
+#newsletterform {
+  float: left;
+  margin-top: 25px;
+}
+
+#calltoaction-form input {
+  padding-top: 20px;
+}
